@@ -1,0 +1,42 @@
+/* Import GoogleFonts ( Inter 400/700 - Lexand Deca 400) */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400,700&display=swap');
+
+:root {
+	--cyan: hsl(185, 75%, 39%); /*Cyan*/
+	--blue: hsl(229, 23%, 23%); /*Very dark desaturated Blue*/
+	--gray-blue: hsl(227, 10%, 46%); /*Gray Blue*/
+/*### Neutral*/
+	--dark-gray: hsl(0, 0%, 59%); /*Dark gray*/
+
+}
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: url('./images/bg-pattern-top.svg');
+	background-repeat: no-repeat;
+	background-color: var(--cyan);
+
+}
+
+main {
+	max-width: 300px;
+	margin: auto;
+}
+img {
+	border-radius: 50%;
+	border: 3px solid white;
+}
+.attribution { 
+	font-size: 11px; text-align: center; 
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+#photo {
+}
+
+
+
+### Body Copy
+
+- Font size (name and stats): 18px
