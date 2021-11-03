@@ -7,7 +7,12 @@
 	--gray-blue: hsl(227, 10%, 46%); /*Gray Blue*/
 /*### Neutral*/
 	--dark-gray: hsl(0, 0%, 59%); /*Dark gray*/
+/*Font*/
+	--kumbh: 'Kumbh Sans';
 
+}
+html {
+	font-size: 18px;
 }
 body {
 	width: 100%;
@@ -21,18 +26,25 @@ body {
 main {
 	max-width: 300px;
 	margin: auto;
+	background-color: white;
+	font-family: var(--kumbh);
 }
 img {
 	border-radius: 50%;
 	border: 3px solid white;
 }
 .attribution { 
-	font-size: 11px; text-align: center; 
+	font-size: 11px; text-align: center;
 }
 .attribution a { 
 	color: hsl(228, 45%, 44%); 
 }
-#photo {
+#top {
+	background-color: var(--cyan);
+	background-image: url('./images/bg-pattern-card.svg');
+	height: 200px; /*Delete later*/
+	border-radius: 10px 10px 0 0;
+
 }
 
 
