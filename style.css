@@ -53,6 +53,10 @@ img {
 .mini {
 	font-size: 0.67rem;
 }
+
+.age {
+	padding-left: 3%;
+}
 #top {
 	background-color: var(--cyan);
 	background-image: url('./images/bg-pattern-card.svg');
