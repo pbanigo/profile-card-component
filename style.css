@@ -1,5 +1,6 @@
 /* Import GoogleFonts ( Kumbh Sans) */
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
 
 :root {
 	--cyan: hsl(185, 75%, 39%); /*Cyan*/
@@ -27,6 +28,7 @@ body {
 main {
 	max-width: 300px;
 	top: 150px;
+    text-align: center;
 	margin: auto;
 	margin-top: 150px;
     display: grid;
@@ -52,12 +54,10 @@ img {
 #photo {	
     grid-area: 4/1/span 4/2;
     z-index: 2;
-    text-align: center;
 }
 #name {
     grid-area: 6/ 1/ span 5/ 2;
     background-color: white;
-    text-align: center;
     padding-top: 50px;
 }
 #stats {
